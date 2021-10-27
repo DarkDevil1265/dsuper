@@ -18,6 +18,43 @@ JOIN_BUTTONS = [
     )
 ]
 
+HELP_TEXT = """**Hey, Follow these steps:**
+
+➠ Just send a movie name for information.
+➠ I will send the information of movie.
+
+**Available Commands**
+
+/start - Checking Bot Online
+/help - For more help
+/about - For more about me
+/status - For bot status
+/settings - For bot settings
+/reset - For reset bot settings
+
+Made by @malluinstaufollowers"""
+
+ABOUT_TEXT = """--**About Me 😎**--
+
+🤖 **Name :** [Movie Info Bot](https://telegram.me/{})
+
+👨‍💻 **Developer :** [RJ](https://t.me/malluinstaufollowers)
+
+📢 **Channel :** [RJ](https://t.me/malluinstafollowers)
+
+👥 **Group :** [Mallu Insta Followers](https://t.me/malluinstafollowers)
+
+🌐 **Source :** [👉 Click here](https://github.com/DarkDevil1265/RJ_movies_v2)
+📝 **Language :** [Python3](https://python.org)
+
+🧰 **Framework :** [Pyrogram](https://pyrogram.org)
+
+📡 **Server :** [Heroku](https://heroku.com)"""
+
+SETTINGS_TEXT = "**Settings**"
+
+ 
+RESET_TEXT = "**Are you sure for reset.**"
 BUTTONS = InlineKeyboardMarkup(
     [JOIN_BUTTONS]
 )
